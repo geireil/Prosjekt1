@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="stilark.css">
+		
+		<title>Artikkel2</title>
+	</head>
+
+	<body>
+		<main>
+			<header>
+					<h1 id="h1black">SVG</h1>
+					<h1>SVG</h1>
+			</header>
+
+			<article id="art4">
+
+				<p>SVG står for Scalable Vector Graphics og er en XML-basert måte å kode vektor-grafikk på. Bruker tagger og attributter. Man smeller det inn i HTML’en der man trenger det. Det fine er at det skalerer, så det blir aldri pixlete uansett hvor mye zooming man skulle føle for. Her er noen eksempler:</p>
+				
+				<svg width="500" height="400">
+					<path d="M100 50 L50 200 L150 200 Z" stroke="orange" stroke-width="2" />
+					<circle cx="100" cy="50" r="20" stroke="orange" stroke-width="2" fill="black" />
+					<circle cx="50" cy="200" r="20" stroke="orange" stroke-width="2" fill="black" />
+					<circle cx="150" cy="200" r="20" stroke="orange" stroke-width="2" fill="black" />
+					
+					<path d="M300 100 L300 200 L400 200 L400 300 Z" stroke="orange" stroke-width="2">
+						<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 350 200" to="360 350 200" dur="3s" repeatCount="indefinite" />
+					</path>
+				</svg>
+				
+				
+				<a href="oblig2webutv.html">Tilbake</a>
+			</article>
+		</main>
+	</body>
+
+</html>

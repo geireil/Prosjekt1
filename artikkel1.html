@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="stilark.css">
+		
+		<title>Artikkel1</title>
+		<style>
+			
+			
+		</style>
+		
+		<script>
+			
+			window.onload = oppstart;
+			
+			function oppstart() {
+				
+			}
+			
+			
+		</script>
+
+	</head>
+
+	<body>
+		<main>
+			<header>
+					<h1>MATH</h1>
+					<h1>ML</h1>
+			</header>
+
+			<article id="art4">
+				
+				<p>MathML står for Mathematical Markup Language. Det fungerer som HTML, med tagger og attributter. Tanken bak språket er å gjøre det lettere å integrere/vise matematiske formler på nettsider i selve koden. Det andre alternativet er å vise formlene som en illustrasjon/bilde. Styrken til MathML er at verdien og oppbygningen i selve formelen er en del av koden. Noe som er kjekt hvis man er synshemmet og trenger å få lest opp internettsider eller trenger på annet vis å hente ut selve matten. Er endel matteprogrammer som støtter det. Her har vi noen eksempel på hvordan det ser ut (trykk ctrl+U for å se html med kommentarer som forklarer strukturen).</p>
+				<math><!--her har vi start taggen for mathml-->
+					<mfrac><!--tagg for a starte en fraksjon, deling-->
+						<mrow><!--her er taggen for å starte en rekke over streken-->
+						<mi>y</mi>
+							<mo>&#x2212;</mo><!--her har vi et minustegn-->
+						<mn>1</mn>
+						</mrow><!--her starter rekken under streken-->
+						<mn>5</mn>
+					</mfrac>
+				</math>
+				<math>
+					<mrow>
+						<mi>cos</mi>
+						<mo>(</mo>
+							<msup><!--tagg som starter en potens-->
+								<mi>x</mi><!--mi er "bokstaver"-->
+								<mn>3</mn><!--mn er nummer-->
+							</msup>
+						<mo>)</mo>
+					</mrow>
+				</math>
+				<math><!--her viser jeg de to forrige eksemplene sammensatt, fin måte å trene på oppbygningen av mathml-->
+					<mfrac>
+						<mrow>
+						<mi>y</mi>
+							<mo>&#x2212;</mo>
+						<mn>1</mn>
+						</mrow>
+						<mrow>
+						<mi>cos</mi>
+						<mo>(</mo>
+							<msup>
+								<mi>x</mi>
+								<mn>3</mn>
+							</msup>
+						<mo>)</mo>
+						</mrow>
+					</mfrac>
+				</math>
+				<p>Ikke så vanskelig å skrive med MathML. Veldig klønete hvis man skal få det til i ren HTML.</p>
+				<a href="oblig2webutv.html">Tilbake</a>
+			</article>
+		</main>
+	</body>
+
+</html>
